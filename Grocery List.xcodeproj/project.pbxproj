@@ -14,6 +14,8 @@
 		E8C1473D19EB7E9E005CABEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C1473C19EB7E9E005CABEF /* Images.xcassets */; };
 		E8C1474019EB7E9E005CABEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8C1473E19EB7E9E005CABEF /* LaunchScreen.xib */; };
 		E8C1474C19EB7E9F005CABEF /* Grocery_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1474B19EB7E9F005CABEF /* Grocery_ListTests.swift */; };
+		E8C1475619EB8B09005CABEF /* ListEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1475519EB8B09005CABEF /* ListEntryViewController.swift */; };
+		E8C1475819EB90A3005CABEF /* UITextField+Blocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1475719EB90A3005CABEF /* UITextField+Blocks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		E8C1474519EB7E9F005CABEF /* Grocery ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grocery ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C1474A19EB7E9F005CABEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C1474B19EB7E9F005CABEF /* Grocery_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grocery_ListTests.swift; sourceTree = "<group>"; };
+		E8C1475519EB8B09005CABEF /* ListEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListEntryViewController.swift; sourceTree = "<group>"; };
+		E8C1475719EB90A3005CABEF /* UITextField+Blocks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Blocks.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				E8C1473319EB7E9E005CABEF /* AppDelegate.swift */,
 				E8C1473519EB7E9E005CABEF /* MasterViewController.swift */,
 				E8C1473719EB7E9E005CABEF /* DetailViewController.swift */,
+				E8C1475519EB8B09005CABEF /* ListEntryViewController.swift */,
+				E8C1475719EB90A3005CABEF /* UITextField+Blocks.swift */,
 				E8C1473919EB7E9E005CABEF /* Main.storyboard */,
 				E8C1473C19EB7E9E005CABEF /* Images.xcassets */,
 				E8C1473E19EB7E9E005CABEF /* LaunchScreen.xib */,
@@ -216,6 +222,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8C1473819EB7E9E005CABEF /* DetailViewController.swift in Sources */,
+				E8C1475619EB8B09005CABEF /* ListEntryViewController.swift in Sources */,
+				E8C1475819EB90A3005CABEF /* UITextField+Blocks.swift in Sources */,
 				E8C1473619EB7E9E005CABEF /* MasterViewController.swift in Sources */,
 				E8C1473419EB7E9E005CABEF /* AppDelegate.swift in Sources */,
 			);
