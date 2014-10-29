@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92E334C81A007A7500E63D7E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 92E334C71A007A7500E63D7E /* README.md */; };
 		E8C1473419EB7E9E005CABEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1473319EB7E9E005CABEF /* AppDelegate.swift */; };
 		E8C1473619EB7E9E005CABEF /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1473519EB7E9E005CABEF /* MasterViewController.swift */; };
 		E8C1473819EB7E9E005CABEF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C1473719EB7E9E005CABEF /* DetailViewController.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92E334C71A007A7500E63D7E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		E8C1472E19EB7E9E005CABEF /* Grocery List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C1473219EB7E9E005CABEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8C1473319EB7E9E005CABEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			children = (
 				E8C1473319EB7E9E005CABEF /* AppDelegate.swift */,
 				E8C1473519EB7E9E005CABEF /* MasterViewController.swift */,
+				92E334C71A007A7500E63D7E /* README.md */,
 				E8C1473719EB7E9E005CABEF /* DetailViewController.swift */,
 				E8C1475519EB8B09005CABEF /* ListEntryViewController.swift */,
 				E8C1475719EB90A3005CABEF /* UITextField+Blocks.swift */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92E334C81A007A7500E63D7E /* README.md in Sources */,
 				E8C1473819EB7E9E005CABEF /* DetailViewController.swift in Sources */,
 				E8C1475619EB8B09005CABEF /* ListEntryViewController.swift in Sources */,
 				E8C1475819EB90A3005CABEF /* UITextField+Blocks.swift in Sources */,
@@ -419,6 +423,7 @@
 				E8C1475119EB7E9F005CABEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8C1475219EB7E9F005CABEF /* Build configuration list for PBXNativeTarget "Grocery ListTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +432,7 @@
 				E8C1475419EB7E9F005CABEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
