@@ -1,4 +1,4 @@
 Grocery-List
 ============
 
-Irving iOS Jumpstart team project fro Team Jon
+Irving iOS Jumpstart team project for Team Jon
